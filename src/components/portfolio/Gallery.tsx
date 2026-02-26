@@ -6,10 +6,10 @@ import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
 
 const images = [
-  { src: gallery1, alt: "Arquitectura moderna", description: "Exploración de líneas y formas en la arquitectura urbana contemporánea." },
-  { src: gallery2, alt: "Bogotá urbana", description: "La energía visual de una ciudad en constante transformación." },
-  { src: gallery3, alt: "Producto minimalista", description: "Composición limpia enfocada en la esencia del producto." },
-  { src: gallery4, alt: "Paisaje colombiano", description: "La riqueza natural capturada con sensibilidad y propósito." },
+  { src: gallery1, alt: "Picture 1", description: "Exploración de líneas y formas en la arquitectura urbana contemporánea." },
+  { src: gallery2, alt: "Picture 2", description: "La energía visual de una ciudad en constante transformación." },
+  { src: gallery3, alt: "Picture 3", description: "Composición limpia enfocada en la esencia del producto." },
+  { src: gallery4, alt: "Picture 4", description: "La riqueza natural capturada con sensibilidad y propósito." },
 ];
 
 const Gallery = () => {

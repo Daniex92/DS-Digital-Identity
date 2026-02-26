@@ -26,8 +26,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between h-16 px-6">
-        <a href="#inicio" className="text-base font-semibold tracking-tight text-foreground">
-          DS
+        <a href="#inicio" className="text-base font-semibold tracking-tight text-foreground text-2xl">
+          <img src="" alt="" />
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
