@@ -15,7 +15,7 @@ const About = () => {
             </h2>
             <div className="flex items-center gap-5 pt-2">
               <Avatar className="h-20 w-20 border-2 border-border/40 shadow-lg shadow-black/20 shrink-0">
-                <AvatarImage src="https://media.licdn.com/dms/image/v2/D4E03AQETTRw0MbI2_Q/profile-displayphoto-scale_200_200/B4EZu939giHEAY-/0/1768417123462?e=1773878400&v=beta&t=fteWlCAOcV8dNagKU_CnLf5Y6aIWDcfxuv2ws2t9HOM" alt="Daniel Sierra" className="object-cover" />
+                <AvatarImage src="src/assets/Profile.png" alt="Daniel Sierra" className="object-cover" />
                 <AvatarFallback className="text-lg font-semibold bg-secondary text-secondary-foreground">DS</AvatarFallback>
               </Avatar>
               <div>
