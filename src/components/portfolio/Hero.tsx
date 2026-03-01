@@ -4,9 +4,19 @@ const Hero = () => {
   return (
     <section
       id="inicio"
-      className="min-h-screen flex items-center justify-center px-6 pt-16"
+      className="min-h-screen flex items-center justify-center px-6 pt-16 relative overflow-hidden"
     >
-      <div className="text-center max-w-4xl mx-auto">
+      {/* Background image with dark gradient overlay */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed max-md:hidden"
+        style={{
+          backgroundImage: `url('https://www.10wallpaper.com/wallpaper/1366x768/1711/Study_desk_desk_lamp_notebook_Photo_HD_Wallpaper_1366x768.jpg')`,
+        }}
+      />
+      <div className="absolute inset-0 md:hidden bg-[hsl(var(--section-darker))]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/80 to-background" />
+
+      <div className="text-center max-w-4xl mx-auto relative z-10">
         <p className="fade-up text-xs tracking-[0.4em] uppercase text-muted-foreground mb-8">
           Web Designer & Developer
         </p>
